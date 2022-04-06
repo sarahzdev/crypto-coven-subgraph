@@ -1,5 +1,5 @@
 {
-  "name": "sz-crypto-coven",
+  "name": "sz-crypto-coven-api",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
