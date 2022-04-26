@@ -18,7 +18,30 @@ This subgraph indexes data from [Crypto Coven](https://etherscan.io/address/0x51
     type 
     sun 
     moon 
-    rising 
+    rising
+    archetypeOfPower
+    backItem
+    background
+    bodyShape
+    earrings
+    eyeColor
+    eyeStyle
+    eyebrows
+    faceMarkings
+    facewear
+    foreheadJewelry
+    hairBack
+    hairFront
+    hairMiddle
+    hairColor
+    hairTopper
+    hat
+    mask
+    mouth
+    necklace
+    outerwear
+    skinTone
+    top 
     updatedAtTimestamp 
     owner {
       id 

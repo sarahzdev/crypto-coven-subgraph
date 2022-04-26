@@ -1,13 +1,13 @@
 {
-  "name": "sz-crypto-coven-api",
+  "name": "crypto-coven-api",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ sazhang/sz-crypto-coven",
-    "create-local": "graph create --node http://localhost:8020/ sazhang/sz-crypto-coven",
-    "remove-local": "graph remove --node http://localhost:8020/ sazhang/sz-crypto-coven",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 sazhang/sz-crypto-coven"
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ sarahzdev/crypto-coven-api",
+    "create-local": "graph create --node http://localhost:8020/ sarahzdev/crypto-coven-api",
+    "remove-local": "graph remove --node http://localhost:8020/ sarahzdev/crypto-coven-api",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 sarahzdev/crypto-coven-api"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.29.0",

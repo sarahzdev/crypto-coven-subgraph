@@ -11,6 +11,29 @@ type Token @entity {
   sun: String!
   moon: String!
   rising: String!
+  archetypeOfPower: String!
+  backItem: String!
+  background: String!
+  bodyShape: String!
+  earrings: String!
+  eyeColor: String!
+  eyeStyle: String!
+  eyebrows: String!
+  faceMarkings: String!
+  facewear: String!
+  foreheadJewelry: String!
+  hairBack: String!
+  hairFront: String!
+  hairMiddle: String!
+  hairColor: String!
+  hairTopper: String!
+  hat: String!
+  mask: String!
+  mouth: String!
+  necklace: String!
+  outerwear: String!
+  skinTone: String!
+  top: String!
   updatedAtTimestamp: BigInt!
   owner: User!
 }
@@ -33,6 +56,29 @@ type _Schema_
         { name: "type" }, 
         { name: "sun" }, 
         { name: "moon" }, 
-        { name: "rising" }
+        { name: "rising" },
+        { name: "archetypeOfPower" }, 
+        { name: "backItem" },
+        { name: "background" },
+        { name: "bodyShape" },
+        { name: "earrings" },
+        { name: "eyeColor" },
+        { name: "eyeStyle" },
+        { name: "eyebrows" },
+        { name: "faceMarkings" },
+        { name: "facewear" },
+        { name: "foreheadJewelry" },
+        { name: "hairBack" },
+        { name: "hairFront" },
+        { name: "hairMiddle" },
+        { name: "hairColor" },
+        { name: "hairTopper" },
+        { name: "hat" },
+        { name: "mask" },
+        { name: "mouth" },
+        { name: "necklace" },
+        { name: "outerwear" },
+        { name: "skinTone" },
+        { name: "top" }
       ]}]
   )
